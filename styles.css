@@ -79,7 +79,7 @@ header {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-image: url("img/background/footer.bmp");
+    background-image: url("img/background/top.jpg");
 }
 
 header h1 {
@@ -487,14 +487,14 @@ footer img:hover{
 
 
 /*Compétances*/
-#competances a{
+#competences a{
     margin: auto;
     display: block;
     width: 20em;
     text-align: center;
     margin-top: 2em;
 }
-#competances .barcompetances{
+#competences .barcompetences{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -507,7 +507,7 @@ footer img:hover{
     margin: 10px;
 }
 
-#competances .barcompetances p{
+#competences .barcompetences p{
     margin: 0;
     margin-right: 0.1em;
     padding-right: 0.5em;
@@ -515,14 +515,14 @@ footer img:hover{
     text-align: right;
 }
 
-#competances .barcompetances p:first-child{
+#competences .barcompetences p:first-child{
     background-color: #296478;
     width: 8%;
     color: white;
     font-weight: bold;
 }
 
-#competances .progressBarre{
+#competences .progressBarre{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -531,7 +531,7 @@ footer img:hover{
     width: 60%;
 }
 
-#competances .progress{
+#competences .progress{
     background-color: #CABDAF;
     -webkit-border-top-right-radius: 50px;
     -webkit-border-bottom-right-radius: 50px;
