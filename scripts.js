@@ -46,20 +46,12 @@ $('a[href^="#"]').click(function () {
 //Annimation du titre
 $(window).on("load", function() {
     var y = 0, i = 1;
-    var h2= ["Developpeur", "BTS SIO", "Java", "Web", "Dijon", "Lyon"];
-
     setInterval(function(){
         var text = "Alexis Favier"
         $('header h1').append(text.substring(y, i));
         y = i;
         i++
-    }, 100);
-
-    setInterval(function () {
-        $('header h2').text(h2[Math.round(Math.random()*6)]);
-        $('header h2').animate({fontSize: '6em'}, 500).delay(1500).animate({top: '80%'}, 500);
-        $('header h2').animate({fontSize: '0em', top: '52%', left: '48%'}, 0);
-    }, 3000);
+    }, 150);
 });
 
 //Annimation des articles

@@ -428,7 +428,7 @@ footer img:hover{
 }
 
 #backToUp {
-    opacity: 0.7;
+    opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     position: fixed;
     bottom: 10px;
@@ -459,8 +459,8 @@ footer img:hover{
 /*Interne au articles */
 /*Presentation*/
 #presentation .content div{
-    width: 50%;
-    height: 20em;
+    max-width: 50em;
+    min-height: 20em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -545,14 +545,61 @@ footer img:hover{
     display: block;
     margin: auto;
     padding-bottom: 1em;
+    height: 70em;
 }
 
 #cv .btn{
     width: 15em;
 }
 
-#veille div:nth-child(2){
+#veille .content div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+#veille .content div div{
+    display: block;
+    width: 30em;
+    margin-left: 5em;
+    margin-right: 5em;
+    border-collapse: collapse;
+    border-radius: 0px 50px 50px 50px;
+    -moz-border-radius: 0px 50px 50px 50px;
+    -webkit-border-radius: 0px 50px 50px 50px;
+    border: 0.5em solid #296478;
+    box-sizing: border-box;
+}
+
+#veille .content h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border-top-right-radius: 40px;
+    margin: 0;
+    background-color: #659BA1;
+}
+
+
+#veille .content li{
+    list-style-type: none;
+    background-image: url(img/vecteurs/link.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+#veille .content li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+}
+
+#veille .content li a:hover{
+    text-decoration: none;
+    color: #296478;
+    font-weight: bold;
 }
 
 #travaux .content{
