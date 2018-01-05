@@ -363,13 +363,21 @@ article .content {
 }
 
 article .content {
-    font-size: 1em;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
     font-family: 'Bungee', cursive;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-decoration: underline;
     margin: 0;
     padding: 0;
@@ -761,7 +769,7 @@ footer img:hover{
     margin: auto;
 }
 
-#contact div:nth-child(2) div{
+#contact div:nth-child(2) div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -776,6 +784,7 @@ footer img:hover{
 #info div:nth-child(2) div{
     text-align: center;
 }
+
 
 
 blockquote{
