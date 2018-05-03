@@ -483,6 +483,8 @@ footer img:hover{
 }
 
 #presentation .content div img{
+	max-width: 40%;
+	height: auto;
     margin: 1em;
 }
 
