@@ -11,6 +11,7 @@
 Titre :font-family: 'Bungee', cursive;
 Text : font-family: 'Cairo', sans-serif;
 Citation : font-family: 'Indie Flower', cursive;
+Baniere : font-family: 'Oswald', sans-serif;
 */
 @-webkit-keyframes masuperanimation {
     0% {
@@ -88,30 +89,20 @@ header h1 {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 7em;
+    font-size: 10em;
     font-weight: bold;
-    color: #ffefd9;;
-    text-shadow: -1px 0 0 rgba(110, 91, 74, 0.99),
-    1px 0 0 rgba(110, 91, 74, 0.8),
-    0 -1px 0 rgba(110, 91, 74, 0.8),
-    0 1px 0 rgba(110, 91, 74, 0.8);
-    font-family: 'Bungee', cursive;
+    color: #f7f7f7;
     white-space: nowrap;
-}
-header h2 {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 0em;
-    color: #ffefd9;;
-    text-shadow: -1px 0 0 rgba(110, 91, 74, 0.99),
-    1px 0 0 rgba(110, 91, 74, 0.8),
-    0 -1px 0 rgba(110, 91, 74, 0.8),
-    0 1px 0 rgba(110, 91, 74, 0.8);
-    font-family: 'Cairo', sans-serif;
-    white-space: nowrap;
+    font-family: 'Carrois Gothic SC', sans-serif;
+	text-shadow: 0 1px 0 #eee,
+             0 2px 0 #e5e5e5,
+             -1px 3px 0 #C8C8C8,
+             -1px 4px 0 #C1C1C1,
+             -2px 5px 0 #B9B9B9,
+             -2px 6px 0 #B2B2B2,
+             -2px 7px 2px rgba(0,0,0, 0.6),
+             -2px 7px 8px rgba(0,0,0, 0.2),
+             -2px 7px 45px rgba(0,0,0, 0.4);
 }
 
 header div {
@@ -142,11 +133,11 @@ header div a {
     text-decoration: none;
     font-size: 2.5em;
     font-weight: bold;
-    color: #ffefd9;
-    text-shadow: -1px 0 0 rgba(110, 91, 74, 0.99),
-    1px 0 0 rgba(110, 91, 74, 0.8),
-    0 -1px 0 rgba(110, 91, 74, 0.8),
-    0 1px 0 rgba(110, 91, 74, 0.8);
+    color: white;
+	text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+             1px 0 0 rgba(0, 0, 0, 0.8),
+             0 -1px 0 rgba(0, 0, 0, 0.8),
+             0 1px 0 rgba(0, 0, 0, 0.8);
     font-family: 'Cairo', sans-serif;
 }
 
@@ -363,21 +354,13 @@ article .content {
 }
 
 article .content {
-    font-size: 0.9em;
-}
-
-h2 {
-    font-family: 'Bungee', cursive;
-    text-align: center;
-    font-size: 1.6em;
-    margin: 0;
-    padding: 0;
+    font-size: 1em;
 }
 
 h3 {
     font-family: 'Bungee', cursive;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-decoration: underline;
     margin: 0;
     padding: 0;
@@ -394,7 +377,7 @@ h4{
 footer {
     background-image: url('img/background/footer.bmp');
     background-color: black;
-    height: 14em;
+    height: 11em;
     color: white;
     overflow: hidden;
     text-align: center;
@@ -461,11 +444,11 @@ footer img:hover{
 }
 
 #backToUp img{
-    width: 50px;
+    width: 3em;
 }
 
 #backToUp{
-    width: 50px;
+    width: 3em;
 }
 
 #backToUp:hover {
@@ -667,7 +650,7 @@ footer img:hover{
 
 #veille .content div div{
     display: block;
-    width: 30em;
+    width: 50em;
     margin-left: 5em;
     margin-right: 5em;
     border-collapse: collapse;
@@ -698,13 +681,11 @@ footer img:hover{
 }
 
 #veille .content li a{
-    text-decoration: none;
     color: black;
     font-size: 1.25em;
 }
 
 #veille .content li a:hover{
-    text-decoration: none;
     color: #296478;
     font-weight: bold;
 }
@@ -753,8 +734,9 @@ footer img:hover{
 
 
 #travaux figure img {
-    width: 90%;
+    max-width: 90%;
     margin: auto;
+	max-height : 500px;
 }
 
 #sio div:nth-child(2){
@@ -769,7 +751,7 @@ footer img:hover{
     margin: auto;
 }
 
-#contact div:nth-child(2) div {
+#contact div:nth-child(2) div{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -784,7 +766,6 @@ footer img:hover{
 #info div:nth-child(2) div{
     text-align: center;
 }
-
 
 
 blockquote{
